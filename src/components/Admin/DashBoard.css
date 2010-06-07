@@ -1,0 +1,64 @@
+.DashBoardContainer {
+    min-height: 100vh;
+}
+
+.containerMenu,
+.containerConsole {
+    height: 100vh;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.containerMenu {
+    background-color: #323739;
+}
+
+.MenuHeader {
+    background-color: #131C21;
+    padding: 25px 20px 20px 20px;
+}
+
+.menu-icon {
+    padding: 5px;
+}
+
+.Console {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    /* box-shadow: 5px 5px rgb(0, 0, 0, 0.3); */
+    border-radius: 2px;
+    margin: 10px 0px;
+    overflow-y: scroll;
+    /* max-height: 100vh; */
+    border: 1px solid blue;
+}
+
+.Console h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.menu-item-list {
+    /* background-color: rgb(51, 51, 204); */
+    /* background-color: rgb(72, 68, 68)92, 91, 91); */
+    padding: 0;
+}
+
+.menu-item-list li {
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.menu-item-list li:hover {
+    background-color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.componenteAMostrar {
+    padding: 20px;
+}

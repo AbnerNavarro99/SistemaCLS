@@ -1,0 +1,71 @@
+.gestionEventos {
+    padding: 10px;
+    /* border: 1px solid black; */
+    min-height: 60vh;
+}
+
+.ButtonNuevoEvento {
+    height: 40vh;
+    /* margin-top: 5%; */
+    /* background-color: rgb(51, 153, 255, 0.8); */
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.2);
+    border-top: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ButtonNuevoEvento:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    /* Firefox */
+    -webkit-transform: scale(1.03);
+    /* Chrome - Safari */
+    -o-transform: scale(1.03);
+    /* Opera */
+    -ms-transform: scale(1.03);
+    /* IE9 */
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    /* Firefox */
+    -webkit-transition: 0.5s ease;
+    /* Chrome - Safari */
+    -o-transition: 0.5s ease;
+    /* Opera */
+}
+
+.ButtonAdd {
+    /* border: 1px solid #c4c4c4; */
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Events {
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.calendarCol {
+    /* border: 1px solid red; */
+    max-height: 35vh;
+}
+
+.calendar {
+    min-width: 100%;
+    min-height: 30vh;
+}
+
+table thead {
+    background-color: rgb(192, 80, 77);
+    color: white;
+}
+
+.tableRegistradosEnEvento {
+    overflow-y: scroll;
+    /* border: 1px solid red; */
+    max-height: 400px;
+}

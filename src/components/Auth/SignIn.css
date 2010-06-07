@@ -1,0 +1,90 @@
+.SigninContainerMobile,
+.SigninContainerDesktop {
+    min-height: 100vh;
+    /* border: 1px solid transparent; */
+}
+
+.TituloIniciarSesion {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.3);
+    background-color: #c0504d;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.3);
+    margin-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    max-width: 80%;
+}
+
+.logos {
+    /* background-color: rgb(0, 0, 255, 0.1) !important; */
+    padding: 15px 0px;
+}
+
+.col {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#ButtonIniciarSesion {
+    background-color: #c0504d;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+input {
+    font-size: 1.5em;
+}
+
+.loginForm {
+    height: 100vh;
+    background-color: white !important;
+    opacity: 90%;
+}
+
+.loginForm .loginFormContainer {
+    height: 100vh;
+}
+
+.loginFormContainer>.row {
+    height: 100vh;
+}
+
+#TituloIniciarSesionDesktop {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 500px) {
+    .SigninContainerMobile {
+        display: none;
+    }
+    img {
+        max-width: 250px !important;
+    }
+    .SigninContainerDesktop {
+        display: initial;
+    }
+    .SigninContainerDesktop>.row {
+        /* margin-top: calc(100vh - 800px); */
+        /* padding-top: calc(100vh - 675px); */
+        /* padding-bottom: calc(100vh - 675px); */
+        min-height: 100vh;
+    }
+    .logosRow>.col img {
+        margin: 25px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .SigninContainerDesktop {
+        display: none;
+    }
+    .SigninContainerMobile {
+        display: initial;
+    }
+    .SigninContainerMobile>.row {
+        /* min-height: 100vh; */
+    }
+}
